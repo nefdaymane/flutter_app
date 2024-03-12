@@ -1,3 +1,4 @@
+import 'package:crud_app/login_page.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primarySwatch: Colors.deepPurple,
       ),
-      home: const HomePage(),
+      home:  LoginPage(),
     );
   }
 }
